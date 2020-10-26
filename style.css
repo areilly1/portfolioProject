@@ -1,0 +1,157 @@
+/* CSS files add styling rules to your content */
+body {
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  font-family: "Commissioner", sans-serif;
+}
+
+.headerRight {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.headerLeft {
+  width: 50%;
+}
+
+.options {
+  margin: 40px;
+  font-size: 25px;
+  color: silver;
+}
+
+.title {
+  margin-left: 300px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.img {
+  height: 600px;
+  width: 600px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.touchHeader {
+  text-align: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.contactBody {
+  background: #039be5;
+}
+
+.contactFlex {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.box {
+  margin: 20px;
+  height: 250px;
+  width: 350px;
+  background-color: silver;
+}
+
+.aboutMeFlex {
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.bio {
+  text-align: left;
+  font-size: 30px;
+  margin-left: 10px;
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+.titleContact {
+  text-align: center;
+}
+
+.infoContact {
+  text-align: center;
+  padding-top: 15%;
+}
+
+.projectDescription {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Roboto", sans-serif;
+}
+
+.silverBody {
+  background-color: #EEEEEE;
+}
+
+.linkProjects {
+  color: blue;
+}
+
+.headshot {
+  width: 50%;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.homeImages {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+
+.imgHome {
+  margin: 25px;
+  height: 500px;
+  width: 500px;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.btn {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 30px;
+  border-radius: 10px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-opacity: 0.5;
+  border: 0px;
+  outline: none;
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
