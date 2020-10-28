@@ -93,3 +93,22 @@ $(".projectsBtn").click(function() {
 $(".contactBtn").click(function() {
   window.location.href = "contact.html";
 });
+
+$(".on").click(function() {
+  $(".silverBody").css("background-color", "black");
+  $(".blue").css("color", "#0a84ff");
+
+  $(".contactBody").css("background-color", "black");
+});
+
+$(".off").click(function() {
+  $(".silverBody").css("background-color", "#EEEEEE");
+  $(".title").css("color", "black");
+  $(".options").css("color", "silver");
+  $(".bio").css("color", "black");
+  $(".projectDescription").css("color", "black");
+  $(".contactBody").css("background-color", "#039be5");
+  $(".touchHeader").css("color", "black");
+  $(".titleContact").css("color", "black");
+  $(".infoContact").css("color", "black");
+});
